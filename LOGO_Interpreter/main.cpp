@@ -6,13 +6,13 @@
 //  Copyright (c) 2012 Oscar Alejandro Mendez Maldonado. All rights reserved.
 //
 
-#include "baseCommandC.h"
 #include <iostream>
 
-int main (int argc, char * const argv[]) {
+int main(int argc, const char * argv[])
+{
+
     // insert code here...
-	baseCommandC test(5.0);
-	baseCommandC testDefault;
-	std::cout << "Yeah" << std::endl;
+    std::cout << "Hello, World!\n";
     return 0;
 }
+
