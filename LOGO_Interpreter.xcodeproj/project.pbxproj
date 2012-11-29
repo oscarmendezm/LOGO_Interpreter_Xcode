@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55993C6E1667F3BF00ED8FFE /* baseCommandC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55993C6C1667F3BF00ED8FFE /* baseCommandC.cpp */; };
 		55FB66AC1667EF6900E02937 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55FB66AB1667EF6900E02937 /* main.cpp */; };
 		55FB66AE1667EF6900E02937 /* LOGO_Interpreter.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55FB66AD1667EF6900E02937 /* LOGO_Interpreter.1 */; };
 /* End PBXBuildFile section */
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		55993C6C1667F3BF00ED8FFE /* baseCommandC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = baseCommandC.cpp; sourceTree = "<group>"; };
+		55993C6D1667F3BF00ED8FFE /* baseCommandC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseCommandC.h; sourceTree = "<group>"; };
 		55FB66A71667EF6900E02937 /* LOGO_Interpreter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LOGO_Interpreter; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FB66AB1667EF6900E02937 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		55FB66AD1667EF6900E02937 /* LOGO_Interpreter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LOGO_Interpreter.1; sourceTree = "<group>"; };
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				55FB66AB1667EF6900E02937 /* main.cpp */,
+				55993C6C1667F3BF00ED8FFE /* baseCommandC.cpp */,
+				55993C6D1667F3BF00ED8FFE /* baseCommandC.h */,
 				55FB66AD1667EF6900E02937 /* LOGO_Interpreter.1 */,
 			);
 			path = LOGO_Interpreter;
@@ -118,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55FB66AC1667EF6900E02937 /* main.cpp in Sources */,
+				55993C6E1667F3BF00ED8FFE /* baseCommandC.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +216,7 @@
 				55FB66B31667EF6900E02937 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
