@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'LOGO' target in the 'LOGO' project
-//
-
-#ifdef __OBJC__
-    #import <Cocoa/Cocoa.h>
-#endif
