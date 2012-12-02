@@ -95,7 +95,7 @@ bool progC::contructNode(commandType_t cmdType, std::string input, std::ifstream
 		case cmdForward:
 			drawValue = atof(input.c_str());
 			command = new forwardC(drawValue);
-            progC::commands.push_back(command);
+            commands.push_back(command);
             std::cout << "Construct Forward Node" <<  drawValue << std::endl;
 			break;
             
@@ -129,6 +129,7 @@ bool progC::contructNode(commandType_t cmdType, std::string input, std::ifstream
 			input=getWord(infile);
             std::cout << "TEST";
             command = new repeatC(infile,drawValue);
+            commands.push_back(command);
                // infile >> loop;
 			//TODO construct NODE
 			std::cout << "Construct Repeat Node: " <<  drawValue << input <<std::endl;

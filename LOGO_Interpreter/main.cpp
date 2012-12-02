@@ -32,7 +32,7 @@ int main (int argc, char ** argv)
    // compilation(argc,argv);
    
 #ifdef __APPLE__
-    argv[1]="./file2.txt";
+    argv[1]="./file3.txt";
 #endif
     std::ifstream infile(argv[1]);
     infile >> compilation;

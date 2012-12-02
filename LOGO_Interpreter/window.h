@@ -59,7 +59,7 @@ window* window::Instance()
 
 window::window(int argc, char** argv)
 {
-    
+#ifdef __APPLE__
 	glutInit( &argc, argv );
     //glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	glutInitWindowSize  ( 500, 500 );
@@ -76,6 +76,22 @@ window::window(int argc, char** argv)
 	glutDisplayFunc     ( display );
 	glutKeyboardFunc    ( keyboard );
 	glutMainLoop        ( );
+#else
+    glutInit( &argc, argv );
+	glShadeModel(GL_SMOOTH);
+	glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
+	glEnable(GL_DEPTH_TEST);
+	glDepthFunc(GL_LEQUAL);
+    glEnable(GL_COLOR_MATERIAL );
+	glHint(GL_PERSPECTIVE_CORRECTION_HINT, GL_NICEST);
+	glutInitDisplayMode ( GLUT_RGB | GLUT_DOUBLE );
+	glutInitWindowSize  ( 500, 500 );
+	glutCreateWindow    ( "ODD assignment" );
+	glutDisplayFunc     ( display );
+	glutReshapeFunc     ( reshape );
+	glutKeyboardFunc    ( keyboard );
+	glutMainLoop        ( );
+#endif
 }
 
 void window::Destroy()

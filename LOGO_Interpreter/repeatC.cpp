@@ -11,7 +11,8 @@
 #include "progC.h"
 repeatC::repeatC(std::ifstream& infile, float v):baseCommandC(v)
 {
-    infile >> *loop;
+    loop = new progC(infile);
+    //infile >> *loop;
 }
 
 repeatC::repeatC():baseCommandC()
@@ -25,6 +26,6 @@ void repeatC::draw(){
 	//std::cout << value << std::endl;
     
 	//glRotatef(value, 0,0,1);
-    
-   loop->draw();
+    for(int i=0;i<value;i++)
+        loop->draw();
 }
