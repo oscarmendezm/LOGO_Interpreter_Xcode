@@ -127,7 +127,9 @@ bool progC::contructNode(commandType_t cmdType, std::string input, std::ifstream
 		case cmdRepeat:
 			drawValue = atoi(input.c_str());
 			input=getWord(infile);
-            command = new repeatC(infile, drawValue);
+            std::cout << "TEST";
+            command = new repeatC(infile,drawValue);
+               // infile >> loop;
 			//TODO construct NODE
 			std::cout << "Construct Repeat Node: " <<  drawValue << input <<std::endl;
 			break;

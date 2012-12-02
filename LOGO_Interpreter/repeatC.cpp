@@ -8,11 +8,10 @@
 
 #include "repeatC.h"
 #include <iostream>
-
-repeatC::repeatC(std::ifstream& infile, float v)
+#include "progC.h"
+repeatC::repeatC(std::ifstream& infile, float v):baseCommandC(v)
 {
-    infile >> loop;
-    value=v;
+    infile >> *loop;
 }
 
 repeatC::repeatC():baseCommandC()
@@ -27,5 +26,5 @@ void repeatC::draw(){
     
 	//glRotatef(value, 0,0,1);
     
-    loop.draw();
+   loop->draw();
 }

@@ -12,17 +12,19 @@
 
 #include <iostream>
 #include "baseCommandC.h"
-#include "progC.h"
+//#include "progC.h"
 
-//class progC;
+class progC;
 
 class repeatC : public baseCommandC{
 private:
-    progC loop;
+    progC* loop;
 public:
 	repeatC(std::ifstream& infile, float v);
 	repeatC();
 	void draw();
+    
+   // friend std::istream& operator>> (std::istream& in, repeatC& a);
     
     
 };
