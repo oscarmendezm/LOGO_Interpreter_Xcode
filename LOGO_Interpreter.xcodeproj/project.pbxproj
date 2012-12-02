@@ -7,10 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		551999DE166ACDBB0070D8CA /* repeatC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 551999DC166ACDBB0070D8CA /* repeatC.cpp */; };
+		553F7876166A99CE002AFDA3 /* progC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 553F7874166A99CE002AFDA3 /* progC.cpp */; };
+		55406E4F166A57690097AF2E /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55406E4E166A57690097AF2E /* GLUT.framework */; };
+		55406E51166A576F0097AF2E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55406E50166A576F0097AF2E /* OpenGL.framework */; };
+		55406E54166A5A4C0097AF2E /* forwardC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55406E52166A5A4C0097AF2E /* forwardC.cpp */; };
+		55406E57166A5B8B0097AF2E /* jumpC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55406E55166A5B8B0097AF2E /* jumpC.cpp */; };
+		55406E5B166A5D8A0097AF2E /* rotateC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55406E59166A5D890097AF2E /* rotateC.cpp */; };
 		55993C6E1667F3BF00ED8FFE /* baseCommandC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55993C6C1667F3BF00ED8FFE /* baseCommandC.cpp */; };
+		55E4F1C6166A7F1900E963CF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55FB66AB1667EF6900E02937 /* main.cpp */; };
+		55E4F1D2166A7F8800E963CF /* baseCommandC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55993C6C1667F3BF00ED8FFE /* baseCommandC.cpp */; };
+		55E4F1D3166A7F8800E963CF /* forwardC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55406E52166A5A4C0097AF2E /* forwardC.cpp */; };
+		55E4F1D4166A7F8800E963CF /* jumpC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55406E55166A5B8B0097AF2E /* jumpC.cpp */; };
+		55E4F1D5166A7F8800E963CF /* rotateC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55406E59166A5D890097AF2E /* rotateC.cpp */; };
+		55E4F1DA166A7FB400E963CF /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55406E50166A576F0097AF2E /* OpenGL.framework */; };
+		55E4F1DB166A7FB900E963CF /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55406E4E166A57690097AF2E /* GLUT.framework */; };
 		55FB66AC1667EF6900E02937 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55FB66AB1667EF6900E02937 /* main.cpp */; };
 		55FB66AE1667EF6900E02937 /* LOGO_Interpreter.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55FB66AD1667EF6900E02937 /* LOGO_Interpreter.1 */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55E4F1B5166A7ED200E963CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55FB669E1667EF6900E02937 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E4F190166A7ED100E963CF;
+			remoteInfo = LOGO;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		55FB66A51667EF6900E02937 /* CopyFiles */ = {
@@ -26,18 +50,52 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		551999DC166ACDBB0070D8CA /* repeatC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = repeatC.cpp; sourceTree = "<group>"; };
+		551999DD166ACDBB0070D8CA /* repeatC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = repeatC.h; sourceTree = "<group>"; };
+		553F7873166A96B9002AFDA3 /* File1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File1.txt; sourceTree = "<group>"; };
+		553F7874166A99CE002AFDA3 /* progC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = progC.cpp; sourceTree = "<group>"; };
+		553F7875166A99CE002AFDA3 /* progC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = progC.h; sourceTree = "<group>"; };
+		55406E4E166A57690097AF2E /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		55406E50166A576F0097AF2E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		55406E52166A5A4C0097AF2E /* forwardC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = forwardC.cpp; sourceTree = "<group>"; };
+		55406E53166A5A4C0097AF2E /* forwardC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = forwardC.h; sourceTree = "<group>"; };
+		55406E55166A5B8B0097AF2E /* jumpC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jumpC.cpp; sourceTree = "<group>"; };
+		55406E56166A5B8B0097AF2E /* jumpC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jumpC.h; sourceTree = "<group>"; };
+		55406E58166A5D260097AF2E /* window.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = window.h; sourceTree = "<group>"; };
+		55406E59166A5D890097AF2E /* rotateC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rotateC.cpp; sourceTree = "<group>"; };
+		55406E5A166A5D8A0097AF2E /* rotateC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rotateC.h; sourceTree = "<group>"; };
 		55993C6C1667F3BF00ED8FFE /* baseCommandC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = baseCommandC.cpp; sourceTree = "<group>"; };
 		55993C6D1667F3BF00ED8FFE /* baseCommandC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseCommandC.h; sourceTree = "<group>"; };
+		55E4F191166A7ED100E963CF /* LOGO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LOGO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E4F1B1166A7ED200E963CF /* LOGOTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LOGOTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FB66A71667EF6900E02937 /* LOGO_Interpreter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LOGO_Interpreter; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FB66AB1667EF6900E02937 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		55FB66AD1667EF6900E02937 /* LOGO_Interpreter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LOGO_Interpreter.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		55E4F18E166A7ED100E963CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E4F1DB166A7FB900E963CF /* GLUT.framework in Frameworks */,
+				55E4F1DA166A7FB400E963CF /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E4F1AD166A7ED200E963CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		55FB66A41667EF6900E02937 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55406E51166A576F0097AF2E /* OpenGL.framework in Frameworks */,
+				55406E4F166A57690097AF2E /* GLUT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,8 +105,11 @@
 		55FB669C1667EF6900E02937 = {
 			isa = PBXGroup;
 			children = (
+				55406E50166A576F0097AF2E /* OpenGL.framework */,
+				55406E4E166A57690097AF2E /* GLUT.framework */,
 				55FB66AA1667EF6900E02937 /* LOGO_Interpreter */,
 				55FB66A81667EF6900E02937 /* Products */,
+				553F7873166A96B9002AFDA3 /* File1.txt */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				55FB66A71667EF6900E02937 /* LOGO_Interpreter */,
+				55E4F191166A7ED100E963CF /* LOGO.app */,
+				55E4F1B1166A7ED200E963CF /* LOGOTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +129,17 @@
 				55FB66AB1667EF6900E02937 /* main.cpp */,
 				55993C6C1667F3BF00ED8FFE /* baseCommandC.cpp */,
 				55993C6D1667F3BF00ED8FFE /* baseCommandC.h */,
+				55406E52166A5A4C0097AF2E /* forwardC.cpp */,
+				55406E53166A5A4C0097AF2E /* forwardC.h */,
+				55406E55166A5B8B0097AF2E /* jumpC.cpp */,
+				55406E56166A5B8B0097AF2E /* jumpC.h */,
+				55406E59166A5D890097AF2E /* rotateC.cpp */,
+				55406E5A166A5D8A0097AF2E /* rotateC.h */,
+				551999DC166ACDBB0070D8CA /* repeatC.cpp */,
+				551999DD166ACDBB0070D8CA /* repeatC.h */,
+				553F7874166A99CE002AFDA3 /* progC.cpp */,
+				553F7875166A99CE002AFDA3 /* progC.h */,
+				55406E58166A5D260097AF2E /* window.h */,
 				55FB66AD1667EF6900E02937 /* LOGO_Interpreter.1 */,
 			);
 			path = LOGO_Interpreter;
@@ -74,6 +148,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		55E4F190166A7ED100E963CF /* LOGO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E4F1C0166A7ED200E963CF /* Build configuration list for PBXNativeTarget "LOGO" */;
+			buildPhases = (
+				55E4F18D166A7ED100E963CF /* Sources */,
+				55E4F18E166A7ED100E963CF /* Frameworks */,
+				55E4F18F166A7ED100E963CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LOGO;
+			productName = LOGO;
+			productReference = 55E4F191166A7ED100E963CF /* LOGO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55E4F1B0166A7ED200E963CF /* LOGOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E4F1C3166A7ED200E963CF /* Build configuration list for PBXNativeTarget "LOGOTests" */;
+			buildPhases = (
+				55E4F1AC166A7ED200E963CF /* Sources */,
+				55E4F1AD166A7ED200E963CF /* Frameworks */,
+				55E4F1AE166A7ED200E963CF /* Resources */,
+				55E4F1AF166A7ED200E963CF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E4F1B6166A7ED200E963CF /* PBXTargetDependency */,
+			);
+			name = LOGOTests;
+			productName = LOGOTests;
+			productReference = 55E4F1B1166A7ED200E963CF /* LOGOTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		55FB66A61667EF6900E02937 /* LOGO_Interpreter */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55FB66B11667EF6900E02937 /* Build configuration list for PBXNativeTarget "LOGO_Interpreter" */;
@@ -113,23 +223,148 @@
 			projectRoot = "";
 			targets = (
 				55FB66A61667EF6900E02937 /* LOGO_Interpreter */,
+				55E4F190166A7ED100E963CF /* LOGO */,
+				55E4F1B0166A7ED200E963CF /* LOGOTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		55E4F18F166A7ED100E963CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E4F1AE166A7ED200E963CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55E4F1AF166A7ED200E963CF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		55E4F18D166A7ED100E963CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E4F1D2166A7F8800E963CF /* baseCommandC.cpp in Sources */,
+				55E4F1D3166A7F8800E963CF /* forwardC.cpp in Sources */,
+				55E4F1D4166A7F8800E963CF /* jumpC.cpp in Sources */,
+				55E4F1D5166A7F8800E963CF /* rotateC.cpp in Sources */,
+				55E4F1C6166A7F1900E963CF /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E4F1AC166A7ED200E963CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		55FB66A31667EF6900E02937 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				55FB66AC1667EF6900E02937 /* main.cpp in Sources */,
 				55993C6E1667F3BF00ED8FFE /* baseCommandC.cpp in Sources */,
+				55406E54166A5A4C0097AF2E /* forwardC.cpp in Sources */,
+				55406E57166A5B8B0097AF2E /* jumpC.cpp in Sources */,
+				55406E5B166A5D8A0097AF2E /* rotateC.cpp in Sources */,
+				553F7876166A99CE002AFDA3 /* progC.cpp in Sources */,
+				551999DE166ACDBB0070D8CA /* repeatC.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		55E4F1B6166A7ED200E963CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55E4F190166A7ED100E963CF /* LOGO */;
+			targetProxy = 55E4F1B5166A7ED200E963CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		55E4F1C1166A7ED200E963CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LOGO/LOGO-Prefix.pch";
+				INFOPLIST_FILE = "LOGO/LOGO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55E4F1C2166A7ED200E963CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LOGO/LOGO-Prefix.pch";
+				INFOPLIST_FILE = "LOGO/LOGO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		55E4F1C4166A7ED200E963CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LOGO.app/Contents/MacOS/LOGO";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LOGO/LOGO-Prefix.pch";
+				INFOPLIST_FILE = "LOGOTests/LOGOTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		55E4F1C5166A7ED200E963CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LOGO.app/Contents/MacOS/LOGO";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LOGO/LOGO-Prefix.pch";
+				INFOPLIST_FILE = "LOGOTests/LOGOTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		55FB66AF1667EF6900E02937 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -156,7 +391,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.7;
 			};
 			name = Debug;
 		};
@@ -179,7 +414,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.7;
 			};
 			name = Release;
 		};
@@ -200,6 +435,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		55E4F1C0166A7ED200E963CF /* Build configuration list for PBXNativeTarget "LOGO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E4F1C1166A7ED200E963CF /* Debug */,
+				55E4F1C2166A7ED200E963CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E4F1C3166A7ED200E963CF /* Build configuration list for PBXNativeTarget "LOGOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E4F1C4166A7ED200E963CF /* Debug */,
+				55E4F1C5166A7ED200E963CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		55FB66A11667EF6900E02937 /* Build configuration list for PBXProject "LOGO_Interpreter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

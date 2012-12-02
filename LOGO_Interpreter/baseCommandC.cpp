@@ -3,7 +3,7 @@
  *  LOGO Interpreter
  *
  *  Created by Oscar Alejandro Mendez Maldonado on 29/11/2012.
- *  Copyright 2012 __MyCompanyName__. All rights reserved.
+ *  Copyright 2012 guapOscar Enterprises. All rights reserved.
  *
  */
 
@@ -15,18 +15,17 @@ baseCommandC::baseCommandC(float v){
 }
 
 baseCommandC::baseCommandC(){
-	value=1.0;
+	value=0.0;
 }
 
 baseCommandC::~baseCommandC(){
-	std::cout << "Out of Scope, value: " << value << std::endl;
-	
+    
 }
 
 std::istream& operator>> (std::istream& in, baseCommandC& a){
     
 	in >> std::ws >> a.value;
-	
+    
 	return in;
     
 }

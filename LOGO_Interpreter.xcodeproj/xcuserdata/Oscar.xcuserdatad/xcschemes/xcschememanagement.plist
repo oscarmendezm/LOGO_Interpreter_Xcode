@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>LOGO.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>LOGO_Interpreter.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>55E4F190166A7ED100E963CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>55E4F1B0166A7ED200E963CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>55FB66A61667EF6900E02937</key>
 		<dict>
 			<key>primary</key>
