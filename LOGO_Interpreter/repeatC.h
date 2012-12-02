@@ -22,6 +22,7 @@ private:
 public:
 	repeatC(std::ifstream& infile, float v);
 	repeatC();
+    ~repeatC();
 	void draw();
     
    // friend std::istream& operator>> (std::istream& in, repeatC& a);

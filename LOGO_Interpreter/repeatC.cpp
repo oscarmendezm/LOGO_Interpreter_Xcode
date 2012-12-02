@@ -20,6 +20,9 @@ repeatC::repeatC():baseCommandC()
     
 }
 
+repeatC::~repeatC(){
+    delete [] (loop);
+}
 
 void repeatC::draw(){
     
